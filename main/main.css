@@ -105,8 +105,6 @@ input {
 /* Start Header & Nav-Bar */
 .header {
 	font-family: 'Raleway', sans-serif;
-	padding-top: var(--section-padding);
-	padding-bottom: var(--section-padding);
 }
 .header .container {
 	position: relative;
