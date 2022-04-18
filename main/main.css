@@ -90,7 +90,7 @@ ul {
 	margin: auto;
 }
 .image img {
-	height: 370px;
+	width: 100%;
 }
 input {
 	padding: 10px 15px;
