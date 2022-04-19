@@ -3,7 +3,7 @@
 	--dark-blue-primary: hsl(243, 87%, 12%);
 	--desturated-blue-primary: hsl(238, 22%, 44%);
 	--bright-blue-accent: hsl(224, 93%, 58%);
-	--moderate-cyan-accent: hsl(170, 45%, 43%);
+	--moderate-cyan-accent: hsl(170 99% 29%);
 	--light-grayish-natural: hsl(240, 75%, 98%);
 	--light-gray-natural: hsl(0, 0%, 75%);
 	--section-padding: 50px;
@@ -213,9 +213,9 @@ header .container .nav-bar ul li a {
 	flex-basis: 40%;
 }
 .landing-2 .content a {
-	color: hsl(168, 46%, 45%);
+	color: var(--moderate-cyan-accent);
 	text-decoration: none;
-	border-bottom: 1px solid hsl(168, 46%, 45%);
+	border-bottom: 1px solid var(--moderate-cyan-accent);
 	position: relative;
 }
 @media (max-width: 767px) {
