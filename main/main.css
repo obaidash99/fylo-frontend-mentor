@@ -59,7 +59,7 @@ ul {
 .content {
 	flex-basis: 50%;
 }
-.content h2 {
+.content h1 {
 	margin-top: 20px;
 	line-height: 1.5;
 	font-weight: 700;
@@ -74,7 +74,7 @@ ul {
 	margin-top: 10px;
 }
 @media (max-width: 767px) {
-	.content h2 {
+	.content h1 {
 		font-size: 22px;
 		text-align: center;
 	}
@@ -272,6 +272,11 @@ header .container .nav-bar ul li a {
 	height: 50px;
 	border-radius: 50%;
 }
+.quote .presonal-info .personal-name h2 {
+	font-size: 17px;
+	margin-bottom: -5px;
+	margin-top: 5px;
+}
 .quote .presonal-info .personal-name p {
 	font-size: 12px;
 	width: 100%;
@@ -293,7 +298,7 @@ header .container .nav-bar ul li a {
 		text-align: center;
 	}
 }
-.subscribe .content h2,
+.subscribe .content h1,
 .subscribe .content p {
 	color: white;
 }
