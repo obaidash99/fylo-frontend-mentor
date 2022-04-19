@@ -105,8 +105,8 @@ input {
 /* Start Header & Nav-Bar */
 header {
 	font-family: 'Raleway', sans-serif;
-	/* padding-top: var(--section-padding);
-	padding-bottom: var(--section-padding); */
+	padding-top: calc(var(--section-padding) * 50%);
+	/* padding-bottom: var(--section-padding); */
 }
 header .container {
 	position: relative;
@@ -353,8 +353,8 @@ footer .contact-info img {
 footer ul li {
 	margin-bottom: 20px;
 }
-footer .social-media {
-	align-self: center;
+footer .social-media ul li {
+	display: inline;
 }
 footer .social-media i {
 	cursor: pointer;
