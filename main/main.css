@@ -356,6 +356,12 @@ footer ul li {
 footer .social-media {
 	align-self: center;
 }
+.social-media button {
+	background: none;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
 footer .social-media i {
 	border: 1px solid white;
 	border-radius: 50%;
